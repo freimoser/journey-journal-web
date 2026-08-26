@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Journey Journal – Dein privates Transformations-Tagebuch</title>
+<meta name="description" content="Dokumentiere deine Körper-Transformation mit täglichen Foto- und Video-Check-ins – automatisch gesichert in deinem eigenen Google Drive, nie in der Handy-Galerie.">
+<link rel="icon" href="assets/logo.png">
+<link rel="canonical" href="https://freemoser.github.io/journey-journal-web/">
+<meta property="og:title" content="Journey Journal – Dein privates Transformations-Tagebuch">
+<meta property="og:description" content="Foto- und Video-Check-ins für deine Körper-Transformation – automatisch gesichert in deinem eigenen Google Drive. Kommt bald für Android.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://freemoser.github.io/journey-journal-web/assets/screen-home.png">
+<meta property="og:locale" content="de_DE">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Journey Journal",
+  "operatingSystem": "Android",
+  "applicationCategory": "HealthApplication",
+  "description": "Privates Transformations-Tagebuch: Foto- und Video-Check-ins, gesichert im eigenen Google Drive.",
+  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}
+}
+</script>
+<style>
+  /* Geist selbst gehostet (OFL) - kein Font-Abruf von Google-Servern (DSGVO) */
+  @font-face {
+    font-family: 'Geist';
+    src: url('assets/fonts/Geist-Variable.ttf') format('truetype');
+    font-weight: 100 900;
+    font-display: swap;
+  }
+</style>
+<style>
+  :root {
+    --primary: #4d644e; --primary-container: #8fa88e; --primary-fixed: #cfeacd;
+    --sand: #f4dfcb; --surface: #fbf9f8; --card: #ffffff;
+    --ink: #1b1c1c; --ink-soft: #434842; --outline: #c3c8bf;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { font-family: 'Geist', system-ui, sans-serif; background: var(--surface);
+    color: var(--ink); line-height: 1.6; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
+  header { padding: 20px 0; }
+  header .wrap { display: flex; align-items: center; gap: 12px; }
+  header img { width: 40px; height: 40px; border-radius: 12px; }
+  header strong { font-size: 18px; font-weight: 600; }
+  .hero { text-align: center; padding: 64px 0 40px; }
+  .hero h1 { font-size: clamp(32px, 6vw, 52px); font-weight: 600;
+    letter-spacing: -0.02em; line-height: 1.15; }
+  .hero h1 em { font-style: normal; color: var(--primary); }
+  .hero p { max-width: 560px; margin: 20px auto 0; color: var(--ink-soft);
+    font-size: 18px; }
+  .badge { display: inline-flex; align-items: center; gap: 8px;
+    background: var(--sand); border-radius: 999px; padding: 8px 18px;
+    font-size: 13px; font-weight: 500; letter-spacing: .05em;
+    text-transform: uppercase; margin-bottom: 24px; }
+  .cta { display: inline-block; background: var(--primary); color: #fff;
+    border-radius: 999px; padding: 16px 36px; font-weight: 600;
+    text-decoration: none; margin-top: 32px; font-size: 17px; }
+  .cta.secondary { background: var(--sand); color: var(--ink); }
+  .shots { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;
+    padding: 48px 0; }
+  .shots img { width: min(230px, 42vw); border-radius: 28px;
+    border: 1px solid var(--outline);
+    box-shadow: 0 24px 60px rgba(77,100,78,.14); }
+  .shots img:nth-child(2) { transform: translateY(-16px); }
+  section.features { padding: 48px 0 24px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px; margin-top: 32px; }
+  .feature { background: var(--card); border: 1px solid var(--outline);
+    border-radius: 28px; padding: 28px; }
+  .feature .icon { width: 52px; height: 52px; border-radius: 50%;
+    background: var(--primary-fixed); display: flex; align-items: center;
+    justify-content: center; font-size: 24px; margin-bottom: 16px; }
+  .feature h3 { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
+  .feature p { color: var(--ink-soft); font-size: 15px; }
+  h2 { font-size: clamp(26px, 4vw, 34px); font-weight: 600;
+    letter-spacing: -0.02em; text-align: center; }
+  .privacy { background: var(--card); border: 1px solid var(--outline);
+    border-radius: 32px; padding: 48px 32px; text-align: center; margin: 48px 0; }
+  .privacy p { max-width: 620px; margin: 16px auto 0; color: var(--ink-soft); }
+  footer { text-align: center; padding: 40px 0 56px; color: var(--ink-soft);
+    font-size: 13px; }
+  footer .label { letter-spacing: .05em; text-transform: uppercase;
+    font-weight: 500; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <img src="assets/logo.png" alt="Journey Journal Logo">
+    <strong>Journey Journal</strong>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <span class="badge">🔒 Deine Daten. Dein Google Drive.</span>
+    <h1>Deine Transformation.<br><em>Dein</em> Tagebuch.</h1>
+    <p>Dokumentiere deine Körper-Transformation mit täglichen Foto- und
+      Video-Check-ins – konsistent aufgenommen dank Vorlagen und
+      Ausrichtungshilfe, automatisch gesichert in deinem eigenen Google Drive.
+      Nie in der Handy-Galerie, nie auf fremden Servern.</p>
+    <span class="cta" style="cursor:default">🌱 Kommt bald für Android</span>
+  </section>
+
+  <section class="shots" aria-label="App-Screenshots">
+    <img src="assets/screen-welcome.png" alt="Willkommen-Screen der App">
+    <img src="assets/screen-home.png" alt="Dashboard mit anstehenden Check-ins">
+    <img src="assets/screen-inspiration.png" alt="Vorlagen-Bibliothek">
+    <img src="assets/screen-drive.png" alt="Google-Drive-Verbindung">
+  </section>
+
+  <section class="features" id="features">
+    <h2>Wie ein hochwertiges Tagebuch.<br>Nicht wie eine Diät-App.</h2>
+    <div class="grid">
+      <div class="feature">
+        <div class="icon">🔔</div>
+        <h3>Erinnert dich zuverlässig</h3>
+        <p>Jeden Abend eine sanfte Erinnerung. Ein Tipp – und die Kamera ist
+          offen, mit der richtigen Vorlage.</p>
+      </div>
+      <div class="feature">
+        <div class="icon">📐</div>
+        <h3>Immer vergleichbar</h3>
+        <p>Silhouetten-Overlay und Ghost-Bild deiner letzten Aufnahme: Auch
+          nach 18 Monaten passen deine Fotos noch übereinander.</p>
+      </div>
+      <div class="feature">
+        <div class="icon">☁️</div>
+        <h3>Backup in DEINEM Drive</h3>
+        <p>Jede Aufnahme landet automatisch strukturiert in deinem eigenen
+          Google Drive – Ordner pro Check-in-Typ und Monat.</p>
+      </div>
+      <div class="feature">
+        <div class="icon">🙈</div>
+        <h3>Nie in der Galerie</h3>
+        <p>Deine Aufnahmen erscheinen niemals in der Handy-Galerie. Zeig
+          anderen Fotos, ohne an dein Tagebuch zu denken.</p>
+      </div>
+      <div class="feature">
+        <div class="icon">💡</div>
+        <h3>Vorlagen-Bibliothek</h3>
+        <p>Kuratierte Video-Vorlagen zum Nachmachen: Selfie, 3-Winkel-Shoot,
+          Video-Statement, Waage – mit Anleitung und empfohlenem Rhythmus.</p>
+      </div>
+      <div class="feature">
+        <div class="icon">🌱</div>
+        <h3>Ehrlicher Fortschritt</h3>
+        <p>Sichtbare Veränderung braucht 3–4 Wochen. Die App sagt dir das
+          ehrlich – statt dich mit Tages-Rauschen zu demotivieren.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="privacy">
+    <h2>Dein Tagebuch gehört nur dir.</h2>
+    <p>Journey Journal speichert deine Aufnahmen ausschließlich im privaten
+      App-Speicher deines Handys und in deinem eigenen Google Drive
+      (<code>drive.file</code>-Zugriff: die App sieht nur Dateien, die sie
+      selbst angelegt hat). Kein eigener Server, kein Zwischenspeichern,
+      kein Zugriff durch andere.</p>
+    <a class="cta secondary" href="mailto:91Serdar@gmail.com">Kontakt</a>
+  </section>
+</main>
+
+<footer>
+  <span class="label">Journey Journal</span> · Ein Produkt in Entwicklung ·
+  © 2026 · <a href="impressum.html" style="color:inherit">Impressum</a> ·
+  <a href="datenschutz.html" style="color:inherit">Datenschutz</a>
+</footer>
+</body>
+</html>
