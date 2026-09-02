@@ -1,0 +1,21 @@
+{
+  "name": "Journey Journal",
+  "short_name": "Journey",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#fbf9f8",
+  "theme_color": "#4d644e",
+  "lang": "de",
+  "icons": [
+    {
+      "src": "assets/logo.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

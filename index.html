@@ -8,6 +8,8 @@
 <link rel="icon" href="assets/logo.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta name="theme-color" content="#fbf9f8">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preload" href="assets/fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="canonical" href="https://freemoser.github.io/journey-journal-web/">
 <meta property="og:title" content="Journey Journal – Dein privates Transformations-Tagebuch">
 <meta property="og:description" content="Foto- und Video-Check-ins für deine Körper-Transformation – automatisch gesichert in deinem eigenen Google Drive. Kommt bald für Android.">
@@ -28,6 +30,15 @@
   "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {"@type": "Organization", "@id": "https://freemoser.github.io/journey-journal-web/#org", "name": "Journey Journal", "url": "https://freemoser.github.io/journey-journal-web/", "logo": "https://freemoser.github.io/journey-journal-web/assets/logo.png", "email": "91Serdar@gmail.com"},
+    {"@type": "WebSite", "@id": "https://freemoser.github.io/journey-journal-web/#website", "url": "https://freemoser.github.io/journey-journal-web/", "name": "Journey Journal", "inLanguage": "de", "publisher": {"@id": "https://freemoser.github.io/journey-journal-web/#org"}}
+  ]
+}
+</script>
 <style>
   /* Geist selbst gehostet (OFL) - kein Font-Abruf von Google-Servern (DSGVO) */
   @font-face {
@@ -45,6 +56,22 @@
     --ink: #1b1c1c; --ink-soft: #434842; --outline: #c3c8bf;
   }
   * { box-sizing: border-box; margin: 0; }
+  .skip { position: absolute; left: -999px; top: 8px; background: var(--primary);
+    color: #fff; padding: 10px 16px; border-radius: 999px; z-index: 10; }
+  .skip:focus { left: 16px; }
+  a:focus-visible, .cta:focus-visible { outline: 3px solid var(--primary);
+    outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+  .ratgeber { padding: 24px 0 48px; }
+  .ratgeber ul { list-style: none; padding: 0; display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 28px; }
+  .ratgeber a.item { display: block; background: var(--card); border: 1px solid var(--outline);
+    border-radius: 24px; padding: 22px; text-decoration: none; color: var(--ink); }
+  .ratgeber a.item strong { display: block; font-size: 17px; margin-bottom: 6px; }
+  .ratgeber a.item span { color: var(--ink-soft); font-size: 14px; }
+  .ratgeber .more { display: inline-block; margin-top: 24px; color: var(--primary);
+    font-weight: 600; text-decoration: none; }
+  footer a { color: inherit; }
   body { font-family: 'Geist', system-ui, sans-serif; background: var(--surface);
     color: var(--ink); line-height: 1.6; }
   .wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
@@ -94,6 +121,7 @@
 </style>
 </head>
 <body>
+<a class="skip" href="#main">Zum Inhalt springen</a>
 <header>
   <div class="wrap">
     <img src="assets/logo.png" alt="Journey Journal Logo" width="40" height="40">
@@ -101,7 +129,7 @@
   </div>
 </header>
 
-<main class="wrap">
+<main class="wrap" id="main">
   <section class="hero">
     <span class="badge">🔒 Deine Daten. Dein Google Drive.</span>
     <h1>Deine Transformation.<br><em>Dein</em> Tagebuch.</h1>
@@ -161,6 +189,16 @@
     </div>
   </section>
 
+  <section class="ratgeber" aria-labelledby="ratgeber-h">
+    <h2 id="ratgeber-h">Ratgeber: ehrlich dokumentieren</h2>
+    <ul>
+      <li><a class="item" href="ratgeber/progress-fotos-richtig-machen.html"><strong>Progress-Fotos richtig machen</strong><span>Die 7 Regeln für Bilder, die du nach 12 Monaten noch fair vergleichen kannst.</span></a></li>
+      <li><a class="item" href="ratgeber/warum-du-nach-2-wochen-keinen-unterschied-siehst.html"><strong>Nach 2 Wochen kein Unterschied?</strong><span>Warum das normal ist – und was in Woche zwei wirklich passiert.</span></a></li>
+      <li><a class="item" href="ratgeber/fortschritt-messen-waage-massband-fotos-video.html"><strong>Waage, Maßband, Fotos oder Video?</strong><span>Welche Methode Fortschritt wirklich zeigt – und wie du sie kombinierst.</span></a></li>
+    </ul>
+    <a class="more" href="ratgeber/">Alle Artikel im Ratgeber →</a>
+  </section>
+
   <section class="privacy">
     <h2>Dein Tagebuch gehört nur dir.</h2>
     <p>Journey Journal speichert deine Aufnahmen ausschließlich im privaten
@@ -174,8 +212,8 @@
 
 <footer>
   <span class="label">Journey Journal</span> · Ein Produkt in Entwicklung ·
-  © 2026 · <a href="impressum.html" style="color:inherit">Impressum</a> ·
-  <a href="datenschutz.html" style="color:inherit">Datenschutz</a>
+  © 2026 · <a href="ratgeber/">Ratgeber</a> · <a href="impressum.html">Impressum</a> ·
+  <a href="datenschutz.html">Datenschutz</a>
 </footer>
 </body>
 </html>
