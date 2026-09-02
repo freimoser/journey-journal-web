@@ -6,11 +6,16 @@
 <title>Journey Journal – Dein privates Transformations-Tagebuch</title>
 <meta name="description" content="Dokumentiere deine Körper-Transformation mit täglichen Foto- und Video-Check-ins – automatisch gesichert in deinem eigenen Google Drive, nie in der Handy-Galerie.">
 <link rel="icon" href="assets/logo.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="theme-color" content="#fbf9f8">
 <link rel="canonical" href="https://freemoser.github.io/journey-journal-web/">
 <meta property="og:title" content="Journey Journal – Dein privates Transformations-Tagebuch">
 <meta property="og:description" content="Foto- und Video-Check-ins für deine Körper-Transformation – automatisch gesichert in deinem eigenen Google Drive. Kommt bald für Android.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://freemoser.github.io/journey-journal-web/assets/screen-home.png">
+<meta property="og:image" content="https://freemoser.github.io/journey-journal-web/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta property="og:locale" content="de_DE">
 <script type="application/ld+json">
 {
@@ -27,7 +32,8 @@
   /* Geist selbst gehostet (OFL) - kein Font-Abruf von Google-Servern (DSGVO) */
   @font-face {
     font-family: 'Geist';
-    src: url('assets/fonts/Geist-Variable.ttf') format('truetype');
+    src: url('assets/fonts/Geist-Variable.woff2') format('woff2'),
+         url('assets/fonts/Geist-Variable.ttf') format('truetype');
     font-weight: 100 900;
     font-display: swap;
   }
@@ -90,7 +96,7 @@
 <body>
 <header>
   <div class="wrap">
-    <img src="assets/logo.png" alt="Journey Journal Logo">
+    <img src="assets/logo.png" alt="Journey Journal Logo" width="40" height="40">
     <strong>Journey Journal</strong>
   </div>
 </header>
@@ -107,10 +113,10 @@
   </section>
 
   <section class="shots" aria-label="App-Screenshots">
-    <img src="assets/screen-welcome.png" alt="Willkommen-Screen der App">
-    <img src="assets/screen-home.png" alt="Dashboard mit anstehenden Check-ins">
-    <img src="assets/screen-inspiration.png" alt="Vorlagen-Bibliothek">
-    <img src="assets/screen-drive.png" alt="Google-Drive-Verbindung">
+    <img src="assets/screen-welcome.png" alt="Willkommen-Screen der App" width="360" height="800" loading="lazy" decoding="async">
+    <img src="assets/screen-home.png" alt="Dashboard mit anstehenden Check-ins" width="360" height="800" loading="lazy" decoding="async">
+    <img src="assets/screen-inspiration.png" alt="Vorlagen-Bibliothek" width="360" height="800" loading="lazy" decoding="async">
+    <img src="assets/screen-drive.png" alt="Google-Drive-Verbindung" width="360" height="800" loading="lazy" decoding="async">
   </section>
 
   <section class="features" id="features">
