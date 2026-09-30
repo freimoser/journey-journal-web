@@ -16,6 +16,7 @@
 - [Video-Tagebuch beim Abnehmen: Warum 30 Sekunden am Tag mehr bringen als jedes Foto](https://freimoser.github.io/journey-journal-web/ratgeber/video-tagebuch-beim-abnehmen.html)
 - [Körperumfang messen: So legst du das Maßband richtig an (Bauch, Hüfte, Oberschenkel, Arm, Brust)](https://freimoser.github.io/journey-journal-web/ratgeber/koerperumfang-messen-massband-richtig-anlegen.html)
 - [Plateau beim Abnehmen: Warum die Waage stehen bleibt – und was wirklich hilft](https://freimoser.github.io/journey-journal-web/ratgeber/plateau-beim-abnehmen.html)
+- [Wie viel kann man in 3 Monaten abnehmen? Realistische Zahlen statt Versprechen](https://freimoser.github.io/journey-journal-web/ratgeber/wie-viel-abnehmen-in-3-monaten.html)
 
 ## Über das Projekt
 - [Über uns](https://freimoser.github.io/journey-journal-web/ueber-uns.html)
