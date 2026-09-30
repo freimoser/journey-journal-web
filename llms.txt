@@ -11,6 +11,7 @@
 - [Warum du nach 2 Wochen keinen Unterschied siehst – und warum das normal ist](https://freimoser.github.io/journey-journal-web/ratgeber/warum-du-nach-2-wochen-keinen-unterschied-siehst.html)
 - [Wie oft wiegen beim Abnehmen? Was Studien sagen – und wie du die Zahl richtig liest](https://freimoser.github.io/journey-journal-web/ratgeber/wie-oft-wiegen-beim-abnehmen.html)
 - [Nach wie vielen Wochen sieht man Erfolge beim Abnehmen? Die realistische Zeitleiste](https://freimoser.github.io/journey-journal-web/ratgeber/wann-sieht-man-erfolge-beim-abnehmen.html)
+- [Body Transformation dokumentieren: Die Checkliste für Tag 1](https://freimoser.github.io/journey-journal-web/ratgeber/transformation-dokumentieren-checkliste-tag-1.html)
 
 ## Über das Projekt
 - [Über uns](https://freimoser.github.io/journey-journal-web/ueber-uns.html)
