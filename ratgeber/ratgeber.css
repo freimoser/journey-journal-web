@@ -21,3 +21,10 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--primary);outline-o
 .crumbs{font-size:13px;color:var(--ink-soft);margin-bottom:20px}.crumbs a{color:var(--primary);text-decoration:none}
 .related ul{list-style:none;padding:0;display:grid;gap:8px}.related a{color:var(--primary);text-decoration:none;font-weight:500}.related a:hover{text-decoration:underline}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+  .topnav { display: flex; gap: 18px; margin-left: auto; font-size: 15px; font-weight: 500; }
+  .topnav a { color: var(--ink-soft); text-decoration: none; }
+  .topnav a:hover { color: var(--primary); }
+  @media (max-width: 480px) { .topnav { gap: 12px; font-size: 14px; } }
+
+.author{display:flex;gap:14px;align-items:flex-start;background:var(--card);border:1px solid var(--outline);border-radius:20px;padding:16px 18px;margin:28px 0 16px}.author img{border-radius:12px;flex:none}.author strong{display:block;margin-bottom:2px}.author span{font-size:14px;color:var(--ink-soft)}.author a{color:var(--primary)}
+.cta-inline{color:var(--primary);font-weight:600;text-decoration:none}
