@@ -3,6 +3,7 @@
 > Privates Transformations-Tagebuch (Android-App, kommt bald): Foto- und Video-Check-ins mit Silhouetten-/Ghost-Overlay, automatisch gesichert im eigenen Google Drive – nie in der Handy-Galerie, kein eigener Server. Deutscher Ratgeber zu Progress-Fotos, Fortschrittsmessung, Motivation und Datenschutz bei Körperfotos.
 
 ## Ratgeber
+- [Progress-Fotos: Der komplette Guide – Aufnahme, Rhythmus, Vergleich, Speicherung](https://freimoser.github.io/journey-journal-web/ratgeber/progress-fotos-der-komplette-guide.html)
 - [Die 3-Winkel-Methode: Front, Seite, Rücken – so dokumentierst du deinen Körper wie ein Profi](https://freimoser.github.io/journey-journal-web/ratgeber/drei-winkel-methode.html)
 - [Fortschritt beim Abnehmen messen: Waage, Maßband, Fotos oder Video?](https://freimoser.github.io/journey-journal-web/ratgeber/fortschritt-messen-waage-massband-fotos-video.html)
 - [Dein Gewicht schwankt täglich um 2 Kilo – das steckt dahinter](https://freimoser.github.io/journey-journal-web/ratgeber/gewicht-schwankt-taeglich.html)
