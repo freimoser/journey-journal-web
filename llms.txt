@@ -15,6 +15,7 @@
 - [Body Transformation dokumentieren: Die Checkliste für Tag 1](https://freimoser.github.io/journey-journal-web/ratgeber/transformation-dokumentieren-checkliste-tag-1.html)
 - [Video-Tagebuch beim Abnehmen: Warum 30 Sekunden am Tag mehr bringen als jedes Foto](https://freimoser.github.io/journey-journal-web/ratgeber/video-tagebuch-beim-abnehmen.html)
 - [Körperumfang messen: So legst du das Maßband richtig an (Bauch, Hüfte, Oberschenkel, Arm, Brust)](https://freimoser.github.io/journey-journal-web/ratgeber/koerperumfang-messen-massband-richtig-anlegen.html)
+- [Plateau beim Abnehmen: Warum die Waage stehen bleibt – und was wirklich hilft](https://freimoser.github.io/journey-journal-web/ratgeber/plateau-beim-abnehmen.html)
 
 ## Über das Projekt
 - [Über uns](https://freimoser.github.io/journey-journal-web/ueber-uns.html)
