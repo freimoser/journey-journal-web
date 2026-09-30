@@ -13,6 +13,7 @@
 - [Wie oft wiegen beim Abnehmen? Was Studien sagen – und wie du die Zahl richtig liest](https://freimoser.github.io/journey-journal-web/ratgeber/wie-oft-wiegen-beim-abnehmen.html)
 - [Nach wie vielen Wochen sieht man Erfolge beim Abnehmen? Die realistische Zeitleiste](https://freimoser.github.io/journey-journal-web/ratgeber/wann-sieht-man-erfolge-beim-abnehmen.html)
 - [Body Transformation dokumentieren: Die Checkliste für Tag 1](https://freimoser.github.io/journey-journal-web/ratgeber/transformation-dokumentieren-checkliste-tag-1.html)
+- [Video-Tagebuch beim Abnehmen: Warum 30 Sekunden am Tag mehr bringen als jedes Foto](https://freimoser.github.io/journey-journal-web/ratgeber/video-tagebuch-beim-abnehmen.html)
 
 ## Über das Projekt
 - [Über uns](https://freimoser.github.io/journey-journal-web/ueber-uns.html)
