@@ -9,7 +9,7 @@
 - [Dein Gewicht schwankt täglich um 2 Kilo – das steckt dahinter](https://freimoser.github.io/journey-journal-web/ratgeber/gewicht-schwankt-taeglich.html)
 - [Körperfotos und Datenschutz: Wem gehören deine Progress-Bilder eigentlich?](https://freimoser.github.io/journey-journal-web/ratgeber/koerperfotos-datenschutz-wem-gehoeren-sie.html)
 - [Progress-Fotos richtig machen: Die 7 Regeln für vergleichbare Bilder](https://freimoser.github.io/journey-journal-web/ratgeber/progress-fotos-richtig-machen.html)
-- [Warum du nach 2 Wochen keinen Unterschied siehst – und warum das normal ist](https://freimoser.github.io/journey-journal-web/ratgeber/warum-du-nach-2-wochen-keinen-unterschied-siehst.html)
+- [Warum du nach 2 Wochen keinen Unterschied siehst – und warum genau jetzt die meisten aufgeben](https://freimoser.github.io/journey-journal-web/ratgeber/warum-du-nach-2-wochen-keinen-unterschied-siehst.html)
 - [Wie oft wiegen beim Abnehmen? Was Studien sagen – und wie du die Zahl richtig liest](https://freimoser.github.io/journey-journal-web/ratgeber/wie-oft-wiegen-beim-abnehmen.html)
 - [Nach wie vielen Wochen sieht man Erfolge beim Abnehmen? Die realistische Zeitleiste](https://freimoser.github.io/journey-journal-web/ratgeber/wann-sieht-man-erfolge-beim-abnehmen.html)
 - [Body Transformation dokumentieren: Die Checkliste für Tag 1](https://freimoser.github.io/journey-journal-web/ratgeber/transformation-dokumentieren-checkliste-tag-1.html)
@@ -21,3 +21,6 @@
 ## Über das Projekt
 - [Über uns](https://freimoser.github.io/journey-journal-web/ueber-uns.html)
 - [Kontakt](https://freimoser.github.io/journey-journal-web/kontakt.html)
+
+## Volltext
+- [Alle Ratgeber-Artikel als Markdown](https://freimoser.github.io/journey-journal-web/llms-full.txt)

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://freimoser.github.io/journey-journal-web/</loc><lastmod>2026-08-26</lastmod></url>
-  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/</loc><lastmod>2026-08-26</lastmod></url>
-  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/progress-fotos-richtig-machen.html</loc><lastmod>2026-08-26</lastmod></url>
-  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/warum-du-nach-2-wochen-keinen-unterschied-siehst.html</loc><lastmod>2026-08-26</lastmod></url>
-  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/gewicht-schwankt-taeglich.html</loc><lastmod>2026-08-26</lastmod></url>
-  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/drei-winkel-methode.html</loc><lastmod>2026-08-26</lastmod></url>
-  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/koerperfotos-datenschutz-wem-gehoeren-sie.html</loc><lastmod>2026-08-26</lastmod></url>
-  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/fortschritt-messen-waage-massband-fotos-video.html</loc><lastmod>2026-08-26</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>https://freimoser.github.io/journey-journal-web/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/progress-fotos-richtig-machen.html</loc><lastmod>2026-10-08</lastmod><image:image><image:loc>https://freimoser.github.io/journey-journal-web/assets/ratgeber/progress-fotos-richtig-machen.png</image:loc></image:image></url>
+  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/warum-du-nach-2-wochen-keinen-unterschied-siehst.html</loc><lastmod>2026-10-08</lastmod><image:image><image:loc>https://freimoser.github.io/journey-journal-web/assets/ratgeber/warum-du-nach-2-wochen-keinen-unterschied-siehst.png</image:loc></image:image></url>
+  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/gewicht-schwankt-taeglich.html</loc><lastmod>2026-10-08</lastmod><image:image><image:loc>https://freimoser.github.io/journey-journal-web/assets/ratgeber/gewicht-schwankt-taeglich.png</image:loc></image:image></url>
+  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/drei-winkel-methode.html</loc><lastmod>2026-10-08</lastmod><image:image><image:loc>https://freimoser.github.io/journey-journal-web/assets/ratgeber/drei-winkel-methode.png</image:loc></image:image></url>
+  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/koerperfotos-datenschutz-wem-gehoeren-sie.html</loc><lastmod>2026-10-08</lastmod><image:image><image:loc>https://freimoser.github.io/journey-journal-web/assets/ratgeber/koerperfotos-datenschutz-wem-gehoeren-sie.png</image:loc></image:image></url>
+  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/fortschritt-messen-waage-massband-fotos-video.html</loc><lastmod>2026-10-08</lastmod><image:image><image:loc>https://freimoser.github.io/journey-journal-web/assets/ratgeber/fortschritt-messen-waage-massband-fotos-video.png</image:loc></image:image></url>
   <url><loc>https://freimoser.github.io/journey-journal-web/ueber-uns.html</loc><lastmod>2026-09-30</lastmod></url>
   <url><loc>https://freimoser.github.io/journey-journal-web/kontakt.html</loc><lastmod>2026-09-30</lastmod></url>
-  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/wie-oft-wiegen-beim-abnehmen.html</loc><lastmod>2026-09-30</lastmod></url>
-  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/wann-sieht-man-erfolge-beim-abnehmen.html</loc><lastmod>2026-09-30</lastmod></url>
-  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/transformation-dokumentieren-checkliste-tag-1.html</loc><lastmod>2026-09-30</lastmod></url>
-  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/progress-fotos-der-komplette-guide.html</loc><lastmod>2026-09-30</lastmod></url>
-  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/video-tagebuch-beim-abnehmen.html</loc><lastmod>2026-09-30</lastmod></url>
-  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/koerperumfang-messen-massband-richtig-anlegen.html</loc><lastmod>2026-09-30</lastmod></url>
-  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/plateau-beim-abnehmen.html</loc><lastmod>2026-09-30</lastmod></url>
-  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/wie-viel-abnehmen-in-3-monaten.html</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/wie-oft-wiegen-beim-abnehmen.html</loc><lastmod>2026-09-30</lastmod><image:image><image:loc>https://freimoser.github.io/journey-journal-web/assets/ratgeber/wie-oft-wiegen-beim-abnehmen.png</image:loc></image:image></url>
+  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/wann-sieht-man-erfolge-beim-abnehmen.html</loc><lastmod>2026-10-08</lastmod><image:image><image:loc>https://freimoser.github.io/journey-journal-web/assets/ratgeber/wann-sieht-man-erfolge-beim-abnehmen.png</image:loc></image:image></url>
+  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/transformation-dokumentieren-checkliste-tag-1.html</loc><lastmod>2026-10-08</lastmod><image:image><image:loc>https://freimoser.github.io/journey-journal-web/assets/ratgeber/transformation-dokumentieren-checkliste-tag-1.png</image:loc></image:image></url>
+  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/progress-fotos-der-komplette-guide.html</loc><lastmod>2026-10-08</lastmod><image:image><image:loc>https://freimoser.github.io/journey-journal-web/assets/ratgeber/progress-fotos-der-komplette-guide.png</image:loc></image:image></url>
+  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/video-tagebuch-beim-abnehmen.html</loc><lastmod>2026-10-08</lastmod><image:image><image:loc>https://freimoser.github.io/journey-journal-web/assets/ratgeber/video-tagebuch-beim-abnehmen.png</image:loc></image:image></url>
+  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/koerperumfang-messen-massband-richtig-anlegen.html</loc><lastmod>2026-10-08</lastmod><image:image><image:loc>https://freimoser.github.io/journey-journal-web/assets/ratgeber/koerperumfang-messen-massband-richtig-anlegen.png</image:loc></image:image></url>
+  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/plateau-beim-abnehmen.html</loc><lastmod>2026-10-08</lastmod><image:image><image:loc>https://freimoser.github.io/journey-journal-web/assets/ratgeber/plateau-beim-abnehmen.png</image:loc></image:image></url>
+  <url><loc>https://freimoser.github.io/journey-journal-web/ratgeber/wie-viel-abnehmen-in-3-monaten.html</loc><lastmod>2026-10-08</lastmod><image:image><image:loc>https://freimoser.github.io/journey-journal-web/assets/ratgeber/wie-viel-abnehmen-in-3-monaten.png</image:loc></image:image></url>
 </urlset>

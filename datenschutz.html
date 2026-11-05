@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Datenschutzerklärung · Journey Journal</title>
 <meta name="robots" content="noindex">
-<link rel="icon" href="assets/logo.png">
+<link rel="icon" href="assets/favicon-96.png" sizes="96x96" type="image/png"><link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <style>
   @font-face { font-family: 'Geist';
     src: url('assets/fonts/Geist-Variable.woff2') format('woff2'), url('assets/fonts/Geist-Variable.ttf') format('truetype');
@@ -18,49 +18,106 @@
   h1 { font-size: 28px; font-weight: 600; letter-spacing: -0.02em;
     margin-bottom: 24px; }
   h2 { font-size: 18px; font-weight: 600; margin: 28px 0 8px; }
+  /* Nummern zentral per CSS-Zähler: auskommentierte Abschnitte zählen nicht mit */
+  body { counter-reset: abschnitt; }
+  h2::before { counter-increment: abschnitt; content: counter(abschnitt) ". "; }
+  .stand { font-size: 14px; color: #434842; margin-top: -16px; }
+  .kurz { background: #eef1ea; border-radius: 16px; padding: 4px 20px; margin: 20px 0; }
   a { color: #4d644e; }
 </style>
 </head>
 <body>
 <p><a href="index.html">← Zurück</a></p>
 <h1>Datenschutzerklärung</h1>
+<p class="stand">Stand: 26. Oktober 2026</p>
 
-<h2>1. Verantwortlicher</h2>
-<p>Serdar Freimoser, Schinkelstraße 15, 80805 München<br>
+<div class="kurz">
+<p><strong>Das Wichtigste in Kürze:</strong> Diese Website setzt keine Cookies, lädt
+keine Analyse- oder Werbedienste und speichert nichts in Ihrem Browser. Beim Aufruf
+fallen nur die technisch nötigen Verbindungsdaten beim Hosting-Anbieter an. Wenn Sie
+uns schreiben, verwenden wir Ihre Nachricht nur, um zu antworten.</p>
+</div>
+
+<h2>Verantwortlicher</h2>
+<p>Serdar Freimoser, Schinkelstraße 15, 80805 München, Deutschland<br>
 E-Mail: kontakt@freimoser.de</p>
 
-<h2>2. Diese Website</h2>
-<p>Diese Website ist eine statische Informationsseite. Wir setzen keine
-Cookies, keine Analyse-Tools und keine Werbenetzwerke ein. Schriftarten
-werden lokal von dieser Website geladen – es findet kein Abruf von
+<h2>Hosting und Server-Logfiles</h2>
+<p>Diese Website ist eine statische Informationsseite. <!-- ADSENSE_NO_ADS -->Wir setzen keine Cookies, keine Analyse-Tools und keine Werbenetzwerke ein und speichern nichts im Speicher Ihres Browsers.<!-- /ADSENSE_NO_ADS -->
+Schriftarten werden lokal von dieser Website geladen, es findet kein Abruf von
 Google-Servern statt.</p>
-<p>Beim Aufruf der Website verarbeitet unser Hosting-Anbieter
-(GitHub Inc. (GitHub Pages)) technisch notwendige
-Verbindungsdaten (u. a. IP-Adresse) in Server-Logs auf Grundlage von
-Art. 6 Abs. 1 lit. f DSGVO (Bereitstellung und Sicherheit der Website).</p>
+<p>Gehostet wird die Website bei GitHub Pages, einem Dienst der GitHub Inc.,
+88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf verarbeitet
+GitHub technisch notwendige Verbindungsdaten, insbesondere Ihre IP-Adresse, Datum und
+Uhrzeit, die aufgerufene Seite sowie Browser- und Betriebssystemangaben, in
+Server-Logfiles. Das dient der Auslieferung und der Sicherheit der Website
+(Abwehr von Angriffen und Missbrauch).</p>
+<p>Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse liegt
+in einer sicheren und zuverlässigen Bereitstellung der Website. Wir selbst haben keinen
+Zugriff auf diese Logfiles. Wie lange GitHub sie aufbewahrt, regelt die
+<a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener" target="_blank">Datenschutzerklärung von GitHub</a>.</p>
+<p>Dabei werden Daten in die USA übermittelt. GitHub Inc. ist nach dem
+EU-US Data Privacy Framework zertifiziert. Für die Übermittlung besteht damit ein
+Angemessenheitsbeschluss der EU-Kommission (Art. 45 DSGVO).</p>
 
-<h2>3. Kontaktaufnahme</h2>
-<p>Bei Kontakt per E-Mail verarbeiten wir die übermittelten Daten zur
-Bearbeitung der Anfrage (Art. 6 Abs. 1 lit. b bzw. f DSGVO).</p>
+<h2>Google Search Console und Bing Webmaster Tools</h2>
+<p>Diese Website ist in der Google Search Console und den Bing Webmaster Tools
+angemeldet, damit wir sehen, wie sie in den Suchmaschinen erscheint. <strong>Dabei
+wird nichts in Ihrem Browser geladen und nichts über Sie an uns übermittelt.</strong>
+Die beiden Bestätigungs-Einträge im Quelltext der Seiten sind reiner Text: Sie laden
+kein Skript, setzen kein Cookie und lösen keine Anfrage aus. Die Daten, die wir dort
+sehen, entstehen bei Google und Microsoft im Rahmen der Suche, unabhängig davon, ob Sie
+diese Website aufrufen, und wir sehen sie nur zusammengefasst. Für Auskünfte zu Ihren
+Suchdaten sind Google und Microsoft die richtigen Ansprechpartner.</p>
 
-<h2>4. Die App „Journey Journal" (Vorabinformation)</h2>
+<h2>Kontaktaufnahme per E-Mail</h2>
+<p>Wenn Sie uns eine E-Mail schreiben, verarbeiten wir Ihre E-Mail-Adresse, Ihren
+Namen, falls angegeben, und den Inhalt Ihrer Nachricht, um Ihre Anfrage zu beantworten.
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, wenn Ihre Anfrage auf einen Vertrag
+zielt, sonst Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse ist die
+Beantwortung Ihrer Anfrage.</p>
+<p>Das Postfach wird bei der STRATO GmbH, Otto-Ostrowski-Straße 7, 10249 Berlin,
+betrieben, die es in unserem Auftrag verarbeitet (Art. 28 DSGVO). Wir löschen Ihre
+Nachricht, sobald Ihr Anliegen erledigt ist und keine gesetzlichen
+Aufbewahrungspflichten entgegenstehen.</p>
+
+<h2>Die App „Journey Journal“ (Vorabinformation)</h2>
 <p>Die beworbene App speichert Foto- und Videoaufnahmen ausschließlich im
-privaten App-Speicher des Geräts sowie – nach ausdrücklicher Verbindung –
-im eigenen Google-Drive-Konto der Nutzerin/des Nutzers
+privaten App-Speicher des Geräts sowie, nach ausdrücklicher Verbindung,
+im eigenen Google-Drive-Konto der Nutzerin oder des Nutzers
 (Berechtigung <code>drive.file</code>: Zugriff nur auf von der App selbst
 erstellte Dateien). Es erfolgt keine Speicherung von Aufnahmen auf Servern
-des Anbieters. Details regelt die Datenschutzerklärung der App.</p>
+des Anbieters. Details regelt die <a href="app-datenschutz.html">Datenschutzerklärung der App</a>.</p>
 
 <!-- ADSENSE_PRIVACY_BLOCK (wird von tool/adsense_enable.py aktiviert)
-<h2>6. Werbung (Google AdSense)</h2>
+<h2>Werbung (Google AdSense)</h2>
 <p>Diese Website nutzt Google AdSense, einen Dienst der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. AdSense verwendet Cookies und ähnliche Technologien, um Anzeigen auszuspielen und deren Reichweite zu messen. Personalisierte Werbung wird nur mit Ihrer Einwilligung ausgespielt, die Sie über das Einwilligungsbanner erteilen und jederzeit über den Link „Datenschutzeinstellungen" im Seitenfuß widerrufen können (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Ohne Einwilligung werden keine Werbe-Cookies gesetzt.</p>
 <p>Dabei können Daten in die USA übermittelt werden; Google ist nach dem EU-US Data Privacy Framework zertifiziert. Weitere Informationen: <a href="https://policies.google.com/technologies/partner-sites" rel="noopener" target="_blank">Wie Google Daten von Websites verwendet</a>, <a href="https://adssettings.google.com" rel="noopener" target="_blank">Einstellungen für Werbung</a>.</p>
--->
-<h2>5. Ihre Rechte</h2>
-<p>Sie haben nach der DSGVO insbesondere das Recht auf Auskunft,
-Berichtigung, Löschung, Einschränkung der Verarbeitung,
-Datenübertragbarkeit sowie Widerspruch. Zudem besteht ein
-Beschwerderecht bei einer Datenschutz-Aufsichtsbehörde.</p>
+ADSENSE_PRIVACY_BLOCK_END -->
+
+<h2>Ihre Rechte</h2>
+<p>Sie haben nach der DSGVO das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16),
+Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18) und
+Datenübertragbarkeit (Art. 20). Eine Einwilligung können Sie jederzeit mit Wirkung
+für die Zukunft widerrufen (Art. 7 Abs. 3). Eine E-Mail an kontakt@freimoser.de
+genügt.</p>
+<div class="kurz">
+<p><strong>Widerspruchsrecht (Art. 21 DSGVO):</strong> Soweit wir Daten auf Grundlage
+unseres berechtigten Interesses verarbeiten (Art. 6 Abs. 1 lit. f DSGVO), können Sie
+dem aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit
+widersprechen. Wir verarbeiten die Daten dann nicht mehr, es sei denn, wir können
+zwingende schutzwürdige Gründe nachweisen, die Ihre Interessen überwiegen, oder die
+Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von
+Rechtsansprüchen.</p>
+</div>
+<p>Sie können sich außerdem bei einer Datenschutz-Aufsichtsbehörde beschweren. Für
+uns zuständig ist das Bayerische Landesamt für Datenschutzaufsicht (BayLDA),
+Promenade 18, 91522 Ansbach,
+<a href="https://www.lda.bayern.de" rel="noopener" target="_blank">www.lda.bayern.de</a>.</p>
+
+<h2>Keine automatisierte Entscheidungsfindung</h2>
+<p>Wir treffen keine automatisierten Entscheidungen und erstellen keine Profile
+im Sinne von Art. 22 DSGVO.</p>
 <p style="margin-top:40px;font-size:13px;color:#434842"><a href="index.html">Startseite</a> · <a href="ratgeber/">Ratgeber</a> · <a href="ueber-uns.html">Über uns</a> · <a href="kontakt.html">Kontakt</a> · <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></p>
 </body>
 </html>

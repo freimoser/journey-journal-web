@@ -6,8 +6,8 @@
 <meta name="msvalidate.01" content="E1F30DEB311AAF5458907DB431B481AC" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Journey Journal – Dein privates Transformations-Tagebuch</title>
-<meta name="description" content="Dokumentiere deine Körper-Transformation mit täglichen Foto- und Video-Check-ins – automatisch gesichert in deinem eigenen Google Drive, nie in der Handy-Galerie.">
-<link rel="icon" href="assets/logo.png">
+<meta name="description" content="Dokumentiere deine Körper-Transformation mit täglichen Foto- und Video-Check-ins – gesichert in deinem eigenen Google Drive, nie in der Handy-Galerie.">
+<link rel="icon" href="assets/favicon-96.png" sizes="96x96" type="image/png"><link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta name="theme-color" content="#fbf9f8">
 <link rel="alternate" type="application/rss+xml" title="Journey Journal – Ratgeber" href="feed.xml">
@@ -103,9 +103,10 @@
   .cta.secondary { background: var(--sand); color: var(--ink); }
   .shots { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;
     padding: 48px 0; }
-  .shots img { width: min(230px, 42vw); border-radius: 28px;
+  .shots img { width: min(230px, 42vw); height: auto; border-radius: 28px;
     border: 1px solid var(--outline);
     box-shadow: 0 24px 60px rgba(77,100,78,.14); }
+  .shots picture { display: contents; }
   .shots img:nth-child(2) { transform: translateY(-16px); }
   section.features { padding: 48px 0 24px; }
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -152,10 +153,10 @@
   </section>
 
   <section class="shots" aria-label="App-Screenshots">
-    <img src="assets/screen-welcome.png" alt="Willkommen-Screen der App" width="360" height="800" loading="lazy" decoding="async">
-    <img src="assets/screen-home.png" alt="Dashboard mit anstehenden Check-ins" width="360" height="800" loading="lazy" decoding="async">
-    <img src="assets/screen-inspiration.png" alt="Vorlagen-Bibliothek" width="360" height="800" loading="lazy" decoding="async">
-    <img src="assets/screen-drive.png" alt="Google-Drive-Verbindung" width="360" height="800" loading="lazy" decoding="async">
+    <picture><source type="image/webp" srcset="assets/screen-welcome.webp 1x, assets/screen-welcome-2x.webp 2x"><img src="assets/screen-welcome.png" alt="Willkommen-Screen der App" width="360" height="800" loading="lazy" decoding="async"></picture>
+    <picture><source type="image/webp" srcset="assets/screen-home.webp 1x, assets/screen-home-2x.webp 2x"><img src="assets/screen-home.png" alt="Home mit anstehenden Check-ins: Tägliches Selfie und 3-Winkel-Foto" width="360" height="800" loading="lazy" decoding="async"></picture>
+    <picture><source type="image/webp" srcset="assets/screen-inspiration.webp 1x, assets/screen-inspiration-2x.webp 2x"><img src="assets/screen-inspiration.png" alt="Vorlagen-Bibliothek mit Beispielbildern" width="360" height="800" loading="lazy" decoding="async"></picture>
+    <picture><source type="image/webp" srcset="assets/screen-drive.webp 1x, assets/screen-drive-2x.webp 2x"><img src="assets/screen-drive.png" alt="Google-Drive-Ordner im Onboarding" width="360" height="800" loading="lazy" decoding="async"></picture>
   </section>
 
   <section class="features" id="features">
