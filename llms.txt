@@ -17,6 +17,10 @@
 - [Körperumfang messen: So legst du das Maßband richtig an (Bauch, Hüfte, Oberschenkel, Arm, Brust)](https://freimoser.github.io/journey-journal-web/ratgeber/koerperumfang-messen-massband-richtig-anlegen.html)
 - [Plateau beim Abnehmen: Warum die Waage stehen bleibt – und was wirklich hilft](https://freimoser.github.io/journey-journal-web/ratgeber/plateau-beim-abnehmen.html)
 - [Wie viel kann man in 3 Monaten abnehmen? Realistische Zahlen statt Versprechen](https://freimoser.github.io/journey-journal-web/ratgeber/wie-viel-abnehmen-in-3-monaten.html)
+- [Bauchumfang-Rechner: Taille zu Größe (WHtR) und Richtwerte für Frauen und Männer](https://freimoser.github.io/journey-journal-web/ratgeber/bauchumfang-taille-groesse-verhaeltnis-rechner.html)
+- [Körperfett messen: Waage, Caliper, DEXA, Formel oder Foto? Was wirklich taugt](https://freimoser.github.io/journey-journal-web/ratgeber/koerperfett-messen-methoden-vergleich.html)
+- [Abnehmen im Gesicht: Ab wann man es sieht und warum es gezielt nicht geht](https://freimoser.github.io/journey-journal-web/ratgeber/abnehmen-im-gesicht-wann-sieht-man-es.html)
+- [Vorher-Nachher-Bilder beim Abnehmen: Warum viele täuschen und wie deine ehrlich werden](https://freimoser.github.io/journey-journal-web/ratgeber/vorher-nachher-bilder-abnehmen.html)
 
 ## Über das Projekt
 - [Über uns](https://freimoser.github.io/journey-journal-web/ueber-uns.html)
